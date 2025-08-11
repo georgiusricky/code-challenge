@@ -21,7 +21,7 @@ Check your version:
 node -v
 ```
 
-### 2️⃣ Install
+### 2️⃣ Clone & Install
 Clone this repository and install dependencies (if any):
 
 ```bash
