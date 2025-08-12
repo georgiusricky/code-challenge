@@ -1,9 +1,6 @@
 const example1 = 'a,b,c\nd,e,f'; // expected : [['a','b','c'], ['d','e','f']]
 const example2 = 'one,"two wraps\nonto ""two"" lines",three\n4,,6'; // expected : [['one', 'two wraps\nonto "two" lines', 'three'], ['4', '', '6']]
 
-console.log('Example 1:', parseCSV(example1));
-console.log('Example 2:', parseCSV(example2));
-
 function parseCSV(input, separator = ',', quote = '"') {
   const rows = [];
   let currentRow = [];
@@ -61,3 +58,6 @@ function parseCSV(input, separator = ',', quote = '"') {
 
   return rows;
 }
+
+console.log('Example 1:', parseCSV(example1));
+console.log('Example 2:', parseCSV(example2));
