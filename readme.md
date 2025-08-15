@@ -30,7 +30,16 @@ npm install
 ```
 Currently, there are no external dependencies — but npm install will create the node_modules folder and prepare the project.
 
-### 3️⃣ Running a Solution
+### 3️⃣ Generate Folder
+From the repository root, run in terminal :
+
+```bash
+npm run new
+```
+
+You’ll be asked to enter a folder name, and then a folder will be automatically created with two files: `instruction.md` and `solution.js`.
+
+### 4️⃣ Running a Solution
 From the repository root, run in terminal :
 
 ```bash
