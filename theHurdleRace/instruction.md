@@ -49,9 +49,9 @@ Dan's character can jump a maximum of ` k = 4 `  units, but the tallest hurdle h
 
 To be able to jump all the hurdles, Dan must drink ` 6  - 4 = 2 `  doses.
 
-![Tallest hurdle illustration](asset1.png)
+![Tallest hurdle illustration](assets/asset1.png)
 
-[Open image in new tab](asset1.png)
+[Open image in new tab](assets/asset1.png)
 
 ### Sample Input 1
 ```bash
@@ -67,8 +67,8 @@ To be able to jump all the hurdles, Dan must drink ` 6  - 4 = 2 `  doses.
 ### Explanation 1
 Dan's character can jump a maximum of ` k = 7 ` units, which is enough to cross all the hurdles:
 
-![All hurdles cleared illustration](asset2.png)
+![All hurdles cleared illustration](assets/asset2.png)
 
-[Open image in new tab](asset2.png)
+[Open image in new tab](assets/asset2.png)
 
 Because he can already jump all the hurdles, Dan needs to drink ` 0 ` doses.
